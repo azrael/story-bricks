@@ -1,6 +1,6 @@
 {
     "name": "story-bricks",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Build your own story!",
     "keywords": [
         "story",
@@ -11,7 +11,10 @@
     "homepage": "https://azrael.github.com/story-bricks",
     "license": "MIT",
     "author": "Dmitry Mulyavka",
-    "main": "index.js",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index.js",
     "repository": "git@github.com:azrael/story-bricks.git",
     "scripts": {
         "build": "NODE_ENV=production webpack --config webpack.config.js",

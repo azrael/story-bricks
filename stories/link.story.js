@@ -8,7 +8,7 @@ storiesOf('Bricks', module)
         <Title><Code>{'<Link/>'}</Code></Title>
 
         <Description>
-            Insert a link to any web resource.
+            It creates a link to any web resource.
         </Description>
 
         <Heading>Props</Heading>
@@ -19,8 +19,8 @@ storiesOf('Bricks', module)
             optional
         >
             URL to navigate. <br />
-            Leave it empty to apply styles only. For example, if you want to combine it
-            with <Code>@storybook/addon-links</Code>.
+            Leave it blank to apply only styles. For example, if you want to combine it
+            with the <Code>@storybook/addon-links</Code>.
         </Prop>
 
         <Example>
@@ -41,8 +41,8 @@ storiesOf('Bricks', module)
             optional
             defaultValue='false'
         >
-            Indicates whether new page will be opened in a current or new tab.
-            It works when <Code>href</Code> is defined.
+            It indicates whether new page will be opened in a current or new tab.
+            It works when the <Code>href</Code> is defined.
         </Prop>
 
         <Example>
@@ -50,4 +50,8 @@ storiesOf('Bricks', module)
                 View source code on GitHub
             </Link>
         </Example>
+
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Link.jsx'>
+            View source code on GitHub
+        </Link>
     </Story>);

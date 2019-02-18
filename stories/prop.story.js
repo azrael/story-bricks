@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Heading, Prop, Story, Title } from '../src';
+import {Code, Description, Example, Heading, Link, Prop, Story, Title} from '../src';
 
 storiesOf('Bricks', module)
     .add('Prop', () => <Story>
@@ -16,7 +16,7 @@ storiesOf('Bricks', module)
             name='name'
             type='string'
         >
-            The name of the prop. It is displayed in bold text.
+            The name of the prop. It is displayed in a bold text.
         </Prop>
 
         <Example>
@@ -27,9 +27,9 @@ storiesOf('Bricks', module)
             name='type'
             type='string'
         >
-            The type of the prop. It is displayed in monospaced text right after the name. <br />
-            It usually repeats <Code>propType</Code> of the prop. <br />
-            You are free to use any string but most common use case is to use js/React related values such
+            The type of the prop. It is displayed in a monospaced text right after the name. <br />
+            It usually repeats the <Code>propType</Code> of the prop. <br />
+            You can use any string but the most common use case is to use js/React related values, such
             as <Code>string</Code>, <Code>number</Code>, <Code>boolean</Code>, <Code>func</Code>, <Code>node</Code>, etc.
         </Prop>
 
@@ -43,8 +43,8 @@ storiesOf('Bricks', module)
             type='string'
             optional
         >
-            The default value of the prop (optional). It is displayed in monospaced text and separated
-            from the type with <Code>=</Code> sign.
+            The default value of the prop (optional). It is displayed in a monospaced text and is separated
+            from the type by the <Code>=</Code> sign.
         </Prop>
 
         <Example>
@@ -58,7 +58,7 @@ storiesOf('Bricks', module)
             defaultValue='false'
             optional
         >
-            Indicates whether prop is optional or not. If <Code>true</Code> than <Code>?</Code> sign
+            It indicates whether prop is required or not. If <Code>true</Code> than <Code>?</Code> sign
             is displayed before the type.
         </Prop>
 
@@ -71,6 +71,10 @@ storiesOf('Bricks', module)
             type='node'
             optional
         >
-            Everything which is passed as a children are considered the description of a prop.
+            Everything passed as a children is considered the description of a prop.
         </Prop>
+
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Prop.jsx'>
+            View source code on GitHub
+        </Link>
     </Story>);

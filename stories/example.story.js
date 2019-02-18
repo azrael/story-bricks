@@ -1,14 +1,14 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import {Code, Description, Example, Heading, Prop, Story, Title} from '../src';
+import {Code, Description, Example, Heading, Link, Prop, Story, Title} from '../src';
 
 storiesOf('Bricks', module)
     .add('Example', () => <Story>
         <Title><Code>{'<Example/>'}</Code></Title>
 
         <Description>
-            A playground where a described component can be placed so user can try it. Also example can be used for
-            showing different effects of different prop values.
+            A playground on which the described component can be placed so user can try it. Also, Example can be used to
+            demonstrate various effects of various prop values.
         </Description>
 
         <Heading>Props</Heading>
@@ -38,4 +38,8 @@ storiesOf('Bricks', module)
                 <b>Using a string as JSX</b>
             </Example>
         </Example>
+
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Example.jsx'>
+            View source code on GitHub
+        </Link>
     </Story>);

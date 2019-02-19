@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import {Code, Description, Example, Heading, Link, Prop, Story, Title} from '../src';
+import { Code, Description, Example, Heading, Link, Prop, Story, Title } from '../src';
 
 storiesOf('Bricks', module)
     .add('Example', () => <Story>
@@ -39,7 +39,7 @@ storiesOf('Bricks', module)
             </Example>
         </Example>
 
-        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Example.jsx'>
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Example.jsx' blank>
             View source code on GitHub
         </Link>
     </Story>);

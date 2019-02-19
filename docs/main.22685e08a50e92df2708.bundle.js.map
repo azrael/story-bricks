@@ -1,1 +1,0 @@
-{"version":3,"file":"main.22685e08a50e92df2708.bundle.js","sources":["webpack:///./src/Code.jsx"],"sourcesContent":["import React from 'react';\nimport s from './story.css';\n\nconst Code = ({ children }) => <code className={s.code}>\n    {children}\n</code>;\n\nCode.displayName = 'Code';\n\nexport default Code;\n"],"mappings":"AAGA","sourceRoot":""}

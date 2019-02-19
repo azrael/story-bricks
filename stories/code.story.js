@@ -14,7 +14,7 @@ storiesOf('Bricks', module)
             <Code>const a = 1</Code>
         </Example>
 
-        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Code.jsx'>
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Code.jsx' blank>
             View source code on GitHub
         </Link>
     </Story>);

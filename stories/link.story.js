@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import LinkTo from '@storybook/addon-links/react';
-import { Code, Description, Example, Link, Heading, Prop, Story, Title } from '../src';
+import { Code, Description, Example, Heading, Link, Notice, Prop, Story, Title } from '../src';
 
 storiesOf('Bricks', module)
     .add('Link', () => <Story>
@@ -43,6 +43,11 @@ storiesOf('Bricks', module)
         >
             It indicates whether new page will be opened in a current or new tab.
             It works when the <Code>href</Code> is defined.
+
+            <Notice>
+                Note: If a story is in an iframe (e.g. in Storybook) then external links
+                to some resources (e.g. GitHub) will only work with the <Code>blank = true</Code>.
+            </Notice>
         </Prop>
 
         <Example>
@@ -51,7 +56,7 @@ storiesOf('Bricks', module)
             </Link>
         </Example>
 
-        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Link.jsx'>
+        <Link href='https://github.com/azrael/story-bricks/blob/master/src/Link.jsx' blank>
             View source code on GitHub
         </Link>
     </Story>);

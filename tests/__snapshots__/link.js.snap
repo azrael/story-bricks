@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link with blank but without href renders correctly 1`] = `
+<span
+  className="link"
+>
+  test
+</span>
+`;
+
+exports[`Link with blank renders correctly 1`] = `
+<a
+  className="link"
+  href="/foo"
+  rel="noreferrer noopener"
+  target="_blank"
+>
+  test
+</a>
+`;
+
+exports[`Link with href renders correctly 1`] = `
+<a
+  className="link"
+  href="/foo"
+  rel="noreferrer noopener"
+  target="_self"
+>
+  test
+</a>
+`;
+
+exports[`Link without href renders correctly 1`] = `
+<span
+  className="link"
+>
+  test
+</span>
+`;

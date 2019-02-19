@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example with jsx as string renders correctly 1`] = `
+<div
+  className="example"
+>
+  <div>
+    <div
+      className="tab active"
+      onClick={[Function]}
+    >
+      Example
+    </div>
+    <div
+      className="tab"
+      onClick={[Function]}
+    >
+      JSX
+    </div>
+  </div>
+  <div>
+    test
+  </div>
+</div>
+`;
+
+exports[`Example with jsx renders correctly 1`] = `
+<div
+  className="example"
+>
+  <div>
+    <div
+      className="tab active"
+      onClick={[Function]}
+    >
+      Example
+    </div>
+    <div
+      className="tab"
+      onClick={[Function]}
+    >
+      JSX
+    </div>
+  </div>
+  <div>
+    test
+  </div>
+</div>
+`;
+
+exports[`Example without jsx renders correctly 1`] = `
+<div
+  className="example"
+>
+  <div>
+    <div
+      className="tab active"
+      onClick={[Function]}
+    >
+      Example
+    </div>
+  </div>
+  <div>
+    test
+  </div>
+</div>
+`;

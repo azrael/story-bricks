@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code renders correctly 1`] = `
+<code
+  className="code"
+>
+  test
+</code>
+`;
+
+exports[`Description renders correctly 1`] = `
+<div
+  className="description"
+>
+  test
+</div>
+`;
+
+exports[`Heading renders correctly 1`] = `
+<div
+  className="heading"
+>
+  test
+</div>
+`;
+
+exports[`Notice renders correctly 1`] = `
+<div
+  className="notice"
+>
+  test
+</div>
+`;
+
+exports[`Story renders correctly 1`] = `
+<div
+  className="container"
+>
+  test
+</div>
+`;
+
+exports[`Title renders correctly 1`] = `
+<div
+  className="title"
+>
+  test
+</div>
+`;

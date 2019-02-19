@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prop with defaultValue renders correctly 1`] = `
+Array [
+  <div
+    className="type"
+  >
+    <span
+      className="name"
+    >
+      foo
+    </span>
+    : 
+    <span
+      className="mono"
+    >
+      bar
+       = 
+      baz
+    </span>
+  </div>,
+  <div
+    className="description"
+  >
+    test
+  </div>,
+]
+`;
+
+exports[`Prop with optional renders correctly 1`] = `
+Array [
+  <div
+    className="type"
+  >
+    <span
+      className="name"
+    >
+      foo
+    </span>
+    : 
+    <span
+      className="mono"
+    >
+      ?
+      bar
+    </span>
+  </div>,
+  <div
+    className="description"
+  >
+    test
+  </div>,
+]
+`;
+
+exports[`Prop with required props only (name and type) renders correctly 1`] = `
+Array [
+  <div
+    className="type"
+  >
+    <span
+      className="name"
+    >
+      foo
+    </span>
+    : 
+    <span
+      className="mono"
+    >
+      bar
+    </span>
+  </div>,
+  <div
+    className="description"
+  >
+    test
+  </div>,
+]
+`;

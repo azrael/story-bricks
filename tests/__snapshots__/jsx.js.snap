@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JSX with multiple children renders correctly 1`] = `
+<pre
+  style={
+    Object {
+      "MozHyphens": "none",
+      "MozTabSize": "2",
+      "OTabSize": "2",
+      "WebkitHyphens": "none",
+      "background": "#2a2a2a",
+      "border": "1px solid #e1e1e8",
+      "borderRadius": "4px",
+      "color": "#76d9e6",
+      "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+      "fontSize": "14px",
+      "hyphens": "none",
+      "msHyphens": "none",
+      "overflow": "auto",
+      "padding": "15px",
+      "position": "relative",
+      "tabSize": "2",
+      "textShadow": "none",
+      "whiteSpace": "pre-wrap",
+      "wordWrap": "normal",
+    }
+  }
+>
+  <code
+    style={
+      Object {
+        "MozHyphens": "none",
+        "MozTabSize": "2",
+        "OTabSize": "2",
+        "WebkitHyphens": "none",
+        "color": "#76d9e6",
+        "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+        "fontSize": "14px",
+        "hyphens": "none",
+        "msHyphens": "none",
+        "tabSize": "2",
+        "textShadow": "none",
+        "whiteSpace": "pre-wrap",
+        "wordWrap": "normal",
+      }
+    }
+  >
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;
+        </span>
+        div
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "plain-text",
+        ]
+      }
+      style={Object {}}
+    >
+      
+    foo
+
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;/
+        </span>
+        div
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+    
+bar
+
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;
+        </span>
+        span
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "plain-text",
+        ]
+      }
+      style={Object {}}
+    >
+      
+    baz
+
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;/
+        </span>
+        span
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+  </code>
+</pre>
+`;
+
+exports[`JSX with no children renders correctly 1`] = `
+<pre
+  style={
+    Object {
+      "MozHyphens": "none",
+      "MozTabSize": "2",
+      "OTabSize": "2",
+      "WebkitHyphens": "none",
+      "background": "#2a2a2a",
+      "border": "1px solid #e1e1e8",
+      "borderRadius": "4px",
+      "color": "#76d9e6",
+      "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+      "fontSize": "14px",
+      "hyphens": "none",
+      "msHyphens": "none",
+      "overflow": "auto",
+      "padding": "15px",
+      "position": "relative",
+      "tabSize": "2",
+      "textShadow": "none",
+      "whiteSpace": "pre-wrap",
+      "wordWrap": "normal",
+    }
+  }
+>
+  <code
+    style={
+      Object {
+        "MozHyphens": "none",
+        "MozTabSize": "2",
+        "OTabSize": "2",
+        "WebkitHyphens": "none",
+        "color": "#76d9e6",
+        "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+        "fontSize": "14px",
+        "hyphens": "none",
+        "msHyphens": "none",
+        "tabSize": "2",
+        "textShadow": "none",
+        "whiteSpace": "pre-wrap",
+        "wordWrap": "normal",
+      }
+    }
+  />
+</pre>
+`;
+
+exports[`JSX with single child renders correctly 1`] = `
+<pre
+  style={
+    Object {
+      "MozHyphens": "none",
+      "MozTabSize": "2",
+      "OTabSize": "2",
+      "WebkitHyphens": "none",
+      "background": "#2a2a2a",
+      "border": "1px solid #e1e1e8",
+      "borderRadius": "4px",
+      "color": "#76d9e6",
+      "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+      "fontSize": "14px",
+      "hyphens": "none",
+      "msHyphens": "none",
+      "overflow": "auto",
+      "padding": "15px",
+      "position": "relative",
+      "tabSize": "2",
+      "textShadow": "none",
+      "whiteSpace": "pre-wrap",
+      "wordWrap": "normal",
+    }
+  }
+>
+  <code
+    style={
+      Object {
+        "MozHyphens": "none",
+        "MozTabSize": "2",
+        "OTabSize": "2",
+        "WebkitHyphens": "none",
+        "color": "#76d9e6",
+        "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+        "fontSize": "14px",
+        "hyphens": "none",
+        "msHyphens": "none",
+        "tabSize": "2",
+        "textShadow": "none",
+        "whiteSpace": "pre-wrap",
+        "wordWrap": "normal",
+      }
+    }
+  >
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;
+        </span>
+        div
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "plain-text",
+        ]
+      }
+      style={Object {}}
+    >
+      
+    test
+
+    </span>
+    <span
+      className={
+        Array [
+          "token",
+          "tag",
+        ]
+      }
+      style={Object {}}
+    >
+      <span
+        className={
+          Array [
+            "token",
+            "tag",
+          ]
+        }
+        style={Object {}}
+      >
+        <span
+          className={
+            Array [
+              "token",
+            ]
+          }
+          style={
+            Object {
+              "color": "#bebec5",
+            }
+          }
+        >
+          &lt;/
+        </span>
+        div
+      </span>
+      <span
+        className={
+          Array [
+            "token",
+          ]
+        }
+        style={
+          Object {
+            "color": "#bebec5",
+          }
+        }
+      >
+        &gt;
+      </span>
+    </span>
+  </code>
+</pre>
+`;

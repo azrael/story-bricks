@@ -4,11 +4,11 @@ import { Code, Description, Example, Heading, Link, Prop, Story, Title } from '.
 
 storiesOf('Bricks', module)
     .add('Example', () => <Story>
-        <Title><Code>{'<Example/>'}</Code></Title>
+        <Title>Example</Title>
 
         <Description>
             A playground on which the described component can be placed so user can try it. Also, Example can be used to
-            demonstrate various effects of various prop values.
+            demonstrate various effects of various prop values
         </Description>
 
         <Heading>Props</Heading>

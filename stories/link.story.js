@@ -5,10 +5,10 @@ import { Code, Description, Example, Heading, Link, Notice, Prop, Story, Title }
 
 storiesOf('Bricks', module)
     .add('Link', () => <Story>
-        <Title><Code>{'<Link/>'}</Code></Title>
+        <Title>Link</Title>
 
         <Description>
-            It creates a link to any web resource.
+            It creates a link to any web resource
         </Description>
 
         <Heading>Props</Heading>

@@ -1,6 +1,6 @@
 const webpack = require('webpack'),
     path = require('path'),
-    CleanWebpackPlugin = require('clean-webpack-plugin');
+    { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
     mode: 'production',
@@ -25,10 +25,11 @@ const config = {
                     {
                         loader: 'css-loader',
                         options: {
-                            'modules': true,
-                            'importLoaders': 1,
-                            'localIdentName': '[local]--[hash:base64:5]',
-                            'camelCase': true
+                            modules: {
+                                localIdentName: '[local]--[hash:base64:5]'
+                            },
+                            importLoaders: 1,
+                            localsConvention: 'camelCaseOnly'
                         }
                     },
                     'postcss-loader'
@@ -40,7 +41,7 @@ const config = {
         new webpack.EnvironmentPlugin({
             NODE_ENV: 'production'
         }),
-        new CleanWebpackPlugin(['dist'], { root: __dirname })
+        new CleanWebpackPlugin()
     ]
 };
 

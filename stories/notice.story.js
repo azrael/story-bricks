@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Link, Notice, Story, Title } from '../src';
+import { Description, Example, Link, Notice, Story, Title } from '../src';
 
 storiesOf('Bricks', module)
     .add('Notice', () => <Story>
-        <Title><Code>{'<Notice/>'}</Code></Title>
+        <Title>Notice</Title>
 
         <Description>
-            Can be used to render some minor message.
+            Can be used to render some minor message
         </Description>
 
         <Example>

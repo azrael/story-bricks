@@ -4,10 +4,10 @@ import { Code, Description, Example, Heading, Link, Prop, Story, Title } from '.
 
 storiesOf('Bricks', module)
     .add('Prop', () => <Story>
-        <Title><Code>{'<Prop/>'}</Code></Title>
+        <Title>Prop</Title>
 
         <Description>
-            Use it to describe the prop of a React-component.
+            Use it to describe the prop of a React-component
         </Description>
 
         <Heading>Props</Heading>

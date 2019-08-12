@@ -1,14 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Link, Story, Title } from '../src';
+import { Description, Example, Link, Story, Title } from '../src';
 
 storiesOf('Bricks', module)
     .add('Story', () => <Story>
-        <Title><Code>{'<Story/>'}</Code></Title>
+        <Title>Story</Title>
 
         <Description>
-            Container of a story. It centers the story and limits its width.
+            Container of a story
         </Description>
+
+        <p>
+            Container centers the story and limits its width.
+        </p>
 
         <Example>
             <Story>Place your content here</Story>

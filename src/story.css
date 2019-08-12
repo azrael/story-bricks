@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 html {
-    font-family: 'IBM Plex Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
     color: #222222;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,29 +13,33 @@ html {
 .container {
     max-width: 680px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 16px;
     box-sizing: border-box;
 }
 
 .title {
-    margin-bottom: 0.625rem;
-    font-size: 2rem;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
 }
 
 .description {
-    margin-bottom: 2rem;
-    font-size: 1.25rem;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 28px;
     color: #666666;
 }
 
 .heading {
-    margin-bottom: 1.375rem;
-    font-size: 1.375rem;
-    font-weight: 500;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
 }
 
 .mono {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
 }
 

@@ -11,7 +11,7 @@ storiesOf('Material UI example', module)
         <Title>Badge</Title>
 
         <Description>
-            Badge generates a small badge to the top-right of its child(ren).
+            Badge generates a small badge to the top-right of its child(ren)
         </Description>
 
         <Heading>Props</Heading>

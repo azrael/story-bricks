@@ -3,9 +3,11 @@ import pt from 'prop-types';
 import s from './story.css';
 
 const Link = ({ href, blank, children }) => {
-    if (!href) return <span className={s.link}>
-        {children}
-    </span>;
+    if (!href) {
+        return <span className={s.link}>
+            {children}
+        </span>;
+    }
 
     return <a
         className={s.link}

@@ -1,30 +1,29 @@
 .name {
-    margin-bottom: 0.625rem;
     font-weight: bold;
 }
 
 .type {
-    margin-bottom: 0.75rem;
+    margin-bottom: 8px;
 }
 
 .description {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .example {
-    margin: 0.625rem 0 2rem;
-    padding: 1.375rem;
+    margin: 8px 0 24px;
+    padding: 16px;
     border: 1px solid rgb(230, 236, 240);
 }
 
 .tab {
     display: inline-block;
-    margin: 0 20px 0.625rem 0;
-    font-size: 0.75rem;
-    font-weight: 700;
+    margin: 0 16px 8px 0;
+    font-size: 12px;
+    font-weight: bold;
     color: rgb(170, 184, 194);
     text-transform: uppercase;
-    opacity: 0.5;
+    opacity: 0.56;
     cursor: pointer;
 }
 
@@ -33,7 +32,7 @@
 }
 
 .jsx {
-    margin: 0 calc(-1.375rem - 1px) calc(-1.375rem - 1px);
+    margin: 0 -17px -17px;
 }
 
 .jsx pre {

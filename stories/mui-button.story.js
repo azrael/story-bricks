@@ -15,7 +15,7 @@ storiesOf('Material UI example', module)
         <Title>Button</Title>
 
         <Description>
-            Buttons allow users to take actions, and make choices, with a single tap.
+            Buttons allow users to take actions, and make choices, with a single tap
         </Description>
 
         <Heading>Props</Heading>

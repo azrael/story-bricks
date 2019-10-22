@@ -18,9 +18,9 @@ html {
 }
 
 .title {
-    margin-bottom: 24px;
-    font-size: 32px;
+    margin-bottom: 32px;
     font-weight: bold;
+    font-size: 32px;
     line-height: 40px;
 }
 
@@ -31,10 +31,14 @@ html {
     color: #666666;
 }
 
+.title + .description {
+    margin-top: -16px;
+}
+
 .heading {
     margin-bottom: 24px;
-    font-size: 24px;
     font-weight: bold;
+    font-size: 24px;
     line-height: 32px;
 }
 
@@ -45,9 +49,9 @@ html {
 
 .code {
     composes: mono;
-    padding: 2px 4px;
-    background-color: #fbe5e1;
-    color: #c0341d;
+    padding: 0 4px 1px;
+    background-color: #fff4eb;
+    color: #fc7303;
     border-radius: 4px;
     white-space: pre;
 }

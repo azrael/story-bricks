@@ -3,24 +3,30 @@
 }
 
 .type {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .description {
     margin-bottom: 16px;
 }
 
+.type + .description {
+    margin-top: -8px;
+}
+
 .example {
-    margin: 8px 0 24px;
+    margin-bottom: 24px;
     padding: 16px;
     border: 1px solid rgb(230, 236, 240);
+    border-radius: 4px;
 }
 
 .tab {
     display: inline-block;
-    margin: 0 16px 8px 0;
-    font-size: 12px;
+    margin: 0 16px 16px 0;
     font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
     color: rgb(170, 184, 194);
     text-transform: uppercase;
     opacity: 0.56;
@@ -37,4 +43,6 @@
 
 .jsx pre {
     margin: 0;
+    border-color: #fff0 !important;
+    border-radius: 0 0 4px 4px !important;
 }

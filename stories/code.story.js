@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Link, Story, Title } from '../src';
+import { Code, Description, Example, Link, Story, Title } from '../dist';
 
 storiesOf('Bricks', module)
     .add('Code', () => <Story>
-        <Title><Code>{'<Code/>'}</Code></Title>
+        <Title>Code</Title>
 
         <Description>
-            Inline pre-formatted block of text.
+            Inline pre-formatted block of text
         </Description>
 
         <Example>

@@ -1,15 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Heading, Link, Story, Title } from '../src';
+import { Code, Description, Example, Heading, Link, Story, Title } from '../dist';
 
 storiesOf('Bricks', module)
     .add('Heading', () => <Story>
-        <Title><Code>{'<Heading/>'}</Code></Title>
+        <Title>Heading</Title>
 
         <Description>
-            Use it to add a caption to your story which is not as global as the <Code>Title</Code>.
-            For example, it can be used for headings of sections of the story.
+            Use it to add a caption to your story which is not as global as the <Code>Title</Code>
         </Description>
+
+        <p>
+            For example, it can be used for headings of sections of the story.
+        </p>
 
         <Example>
             <Heading>Props</Heading>

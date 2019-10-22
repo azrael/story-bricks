@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Code, Description, Example, Link, Story, Title } from '../src';
+import { Description, Example, Link, Story, Title } from '../dist';
 
 storiesOf('Bricks', module)
     .add('Description', () => <Story>
-        <Title><Code>{'<Description/>'}</Code></Title>
+        <Title>Description</Title>
 
         <Description>
-            It can be used to describe what this component is and/or why this component exists.
+            It can be used to describe what this component is and/or why this component exists
         </Description>
 
         <Example>

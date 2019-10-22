@@ -5,9 +5,9 @@ import p from './prop.css';
 
 const Prop = ({ name, type, optional, defaultValue, children }) => <>
     <div className={p.type}>
-            <span className={p.name}>
-                {name}
-            </span>
+        <span className={p.name}>
+            {name}
+        </span>
 
         {type && ': '}
 

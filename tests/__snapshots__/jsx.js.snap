@@ -46,29 +46,15 @@ exports[`JSX with multiple children renders correctly 1`] = `
     }
   >
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -80,11 +66,7 @@ exports[`JSX with multiple children renders correctly 1`] = `
         div
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",
@@ -95,12 +77,7 @@ exports[`JSX with multiple children renders correctly 1`] = `
       </span>
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "plain-text",
-        ]
-      }
+      className="token plain-text"
       style={Object {}}
     >
       
@@ -108,29 +85,15 @@ exports[`JSX with multiple children renders correctly 1`] = `
 
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -142,11 +105,7 @@ exports[`JSX with multiple children renders correctly 1`] = `
         div
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",
@@ -160,29 +119,15 @@ exports[`JSX with multiple children renders correctly 1`] = `
 bar
 
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -194,11 +139,7 @@ bar
         span
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",
@@ -209,12 +150,7 @@ bar
       </span>
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "plain-text",
-        ]
-      }
+      className="token plain-text"
       style={Object {}}
     >
       
@@ -222,29 +158,15 @@ bar
 
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -256,11 +178,7 @@ bar
         span
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",
@@ -368,29 +286,15 @@ exports[`JSX with single child renders correctly 1`] = `
     }
   >
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -402,11 +306,7 @@ exports[`JSX with single child renders correctly 1`] = `
         div
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",
@@ -417,12 +317,7 @@ exports[`JSX with single child renders correctly 1`] = `
       </span>
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "plain-text",
-        ]
-      }
+      className="token plain-text"
       style={Object {}}
     >
       
@@ -430,29 +325,15 @@ exports[`JSX with single child renders correctly 1`] = `
 
     </span>
     <span
-      className={
-        Array [
-          "token",
-          "tag",
-        ]
-      }
+      className="token tag"
       style={Object {}}
     >
       <span
-        className={
-          Array [
-            "token",
-            "tag",
-          ]
-        }
+        className="token tag"
         style={Object {}}
       >
         <span
-          className={
-            Array [
-              "token",
-            ]
-          }
+          className="token"
           style={
             Object {
               "color": "#bebec5",
@@ -464,11 +345,7 @@ exports[`JSX with single child renders correctly 1`] = `
         div
       </span>
       <span
-        className={
-          Array [
-            "token",
-          ]
-        }
+        className="token"
         style={
           Object {
             "color": "#bebec5",

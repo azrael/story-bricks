@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { Badge, Button } from './mui';
-import { Description, Example, Heading, Prop, Story, Title } from '../src';
+import { Description, Example, Heading, Prop, Story, Title } from '../dist';
 
 const InboxButton = () => <Button variant='outlined' color='primary'>Inbox</Button>;
 const Space = () => <span style={{ marginRight: '16px' }} />;
@@ -11,7 +11,7 @@ storiesOf('Material UI example', module)
         <Title>Badge</Title>
 
         <Description>
-            Badge generates a small badge to the top-right of its child(ren).
+            Badge generates a small badge to the top-right of its child(ren)
         </Description>
 
         <Heading>Props</Heading>

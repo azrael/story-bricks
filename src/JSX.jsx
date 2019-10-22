@@ -1,5 +1,5 @@
 import React, { Children } from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter/dist/cjs/prism-light';
+import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import jsx from 'react-syntax-highlighter/dist/cjs/languages/prism/jsx';
 import xonokai from 'react-syntax-highlighter/dist/cjs/styles/prism/xonokai';
 import reactElementToJSXString from 'react-element-to-jsx-string';

@@ -1,12 +1,14 @@
-import { addDecorator, configure } from '@storybook/react';
-import { withOptions } from '@storybook/addon-options';
+import { addParameters, configure } from '@storybook/react';
 
-addDecorator(
-    withOptions({
-        name: 'Story Bricks',
-        url: 'https://github.com/azrael/story-bricks'
-    })
-);
+addParameters({
+    options: {
+        theme: {
+            brandImage: null,
+            brandTitle: 'Story Bricks',
+            brandUrl: 'https://github.com/azrael/story-bricks'
+        }
+    }
+});
 
 const req = require.context('../stories', false, /story\.js$/);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Description, Example, Link, Story, Title } from '../src';
+import { Description, Example, Link, Story, Title } from '../dist';
 
 storiesOf('Bricks', module)
     .add('Title', () => <Story>

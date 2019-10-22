@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { Button } from './mui';
-import { Code, Description, Example, Heading, Prop, Story, Title } from '../src';
+import { Code, Description, Example, Heading, Prop, Story, Title } from '../dist';
 
 const Space = () => <span style={{ marginRight: '16px' }} />;
 

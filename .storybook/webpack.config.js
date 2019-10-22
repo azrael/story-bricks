@@ -1,7 +1,11 @@
-const appConfig = require('../webpack.config');
-
 module.exports = ({ config }) => {
-    config.module.rules = appConfig.module.rules;
+    config.module.rules = [
+        {
+            test: /\.jsx?$/,
+            use: 'babel-loader',
+            exclude: /node_modules|dist/
+        }
+    ];
 
     return config;
 };

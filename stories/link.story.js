@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import LinkTo from '@storybook/addon-links/react';
-import { Code, Description, Example, Heading, Link, Notice, Prop, Story, Title } from '../src';
+import { Code, Description, Example, Heading, Link, Notice, Prop, Story, Title } from '../dist';
 
 storiesOf('Bricks', module)
     .add('Link', () => <Story>

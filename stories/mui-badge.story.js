@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { Badge, Button } from './mui';
-import { Description, Example, Heading, Prop, Story, Title } from '../src';
+import { Description, Example, Heading, Prop, Story, Title } from '../dist';
 
 const InboxButton = () => <Button variant='outlined' color='primary'>Inbox</Button>;
 const Space = () => <span style={{ marginRight: '16px' }} />;

@@ -38,6 +38,8 @@ const Example = ({ jsx, children }) => {
     </div>;
 };
 
+Example.displayName = 'Example';
+
 Example.propTypes = {
     jsx: pt.oneOfType([pt.string, pt.bool])
 };
